@@ -43,13 +43,10 @@ function displayMessage(message) {
     const messageElement = document.getElementById('message');
     messageElement.textContent = message;
 
-    // Show pop-up message
+   
     messageElement.style.display = 'block';
 
-    // Hide the pop-up message after 3 seconds
-   // setTimeout(() => {
-     //   messageElement.style.display = 'none';
-    //}, 3000);
+   
 }
 
 function resetGame() {
